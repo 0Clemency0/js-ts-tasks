@@ -4,6 +4,20 @@
  * @param {number} symbolsCount
  * @returns {string}
  */
+
 module.exports.backToFront = function backToFront(str, symbolsCount) {
-  throw new Error('Not implemented');
+  if (symbolsCount === 0 || symbolsCount > str.length) {
+    return str;
+  }
+  // const symbol = str.slice(-1 * symbolsCount)
+
+  let part = '';
+  let i = str.length - symbolsCount;
+  while (i < str.length) {
+    part = part + str[i];
+    i = i + 1;
+  }
+
+  let result = part + str + part;
+  return result;
 };

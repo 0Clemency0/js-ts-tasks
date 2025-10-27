@@ -6,5 +6,12 @@
  * @returns {number}
  */
 module.exports.divider = function divider(n, k) {
-  throw new Error('Not implemented');
+  if (k === 0) {
+    throw new Error('Not implemented');
+  }
+
+  let chelya = (n / k) | 0;
+  const ost = n % k;
+
+  return `${chelya} ${ost}`;
 };

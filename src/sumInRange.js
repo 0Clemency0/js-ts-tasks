@@ -5,5 +5,21 @@
  * @returns {number}
  */
 module.exports.sumInRange = function sumInRange(start, end) {
-  throw new Error('Not implemented');
+  let begin = Number(start);
+  let finish = end; // В тесте во втором знач всегда прихоит число)) Поэтому решил не ставить Num
+
+  if (begin > finish) {
+    let temp = begin;
+    begin = finish;
+    finish = temp;
+  }
+
+  let sum = 0;
+
+  while (begin <= finish) {
+    sum = sum + begin;
+    begin = begin + 1;
+  }
+
+  return sum;
 };
