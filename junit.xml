@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.007" tests="61" failures="55">
+  <testsuite name="Root Suite" timestamp="2025-11-11T16:47:35" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="diffElems" timestamp="2025-11-11T16:47:35" tests="6" file="Z:\Code\js-ts-tasks\test\index.js" time="0.001" failures="0">
+    <testcase name="diffElems should return 4" time="0.000" classname="should return 4">
+    </testcase>
+    <testcase name="diffElems should return 6" time="0.000" classname="should return 6">
+    </testcase>
+    <testcase name="diffElems should return 6" time="0.000" classname="should return 6">
+    </testcase>
+    <testcase name="diffElems should return 6" time="0.000" classname="should return 6">
+    </testcase>
+    <testcase name="diffElems should return 4" time="0.000" classname="should return 4">
+    </testcase>
+    <testcase name="diffElems should return 1" time="0.000" classname="should return 1">
+    </testcase>
+  </testsuite>
+  <testsuite name="getDistance" timestamp="2025-11-11T16:47:35" tests="7" file="Z:\Code\js-ts-tasks\test\index.js" time="0.002" failures="7">
+    <testcase name="getDistance should return 1.41" time="0.000" classname="should return 1.41">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getDistance (src\getDistance.js:10:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getDistance should return 14.14" time="0.000" classname="should return 14.14">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getDistance (src\getDistance.js:10:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getDistance should return 7.07" time="0.000" classname="should return 7.07">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getDistance (src\getDistance.js:10:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getDistance should return 87.92" time="0.000" classname="should return 87.92">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getDistance (src\getDistance.js:10:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getDistance should return 0" time="0.000" classname="should return 0">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getDistance (src\getDistance.js:10:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getDistance should return 0.59" time="0.000" classname="should return 0.59">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getDistance (src\getDistance.js:10:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getDistance should return 258.62" time="0.000" classname="should return 258.62">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getDistance (src\getDistance.js:10:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="getMaximalSequence" timestamp="2025-11-11T16:47:35" tests="7" file="Z:\Code\js-ts-tasks\test\index.js" time="0.000" failures="7">
+    <testcase name="getMaximalSequence should return [2,2,2]" time="0.000" classname="should return [2,2,2]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getMaximalSequence (src\getMaximalSequence.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getMaximalSequence should return [2,2,2]" time="0.000" classname="should return [2,2,2]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getMaximalSequence (src\getMaximalSequence.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getMaximalSequence should return [3,3,3,3]" time="0.000" classname="should return [3,3,3,3]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getMaximalSequence (src\getMaximalSequence.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getMaximalSequence should return [-1,-1,-1]" time="0.000" classname="should return [-1,-1,-1]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getMaximalSequence (src\getMaximalSequence.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getMaximalSequence should return [0.11,0.11]" time="0.000" classname="should return [0.11,0.11]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getMaximalSequence (src\getMaximalSequence.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getMaximalSequence should return [5,5]" time="0.000" classname="should return [5,5]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getMaximalSequence (src\getMaximalSequence.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="getMaximalSequence should return [0,0,0]" time="0.000" classname="should return [0,0,0]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at getMaximalSequence (src\getMaximalSequence.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="hasProperty" timestamp="2025-11-11T16:47:35" tests="7" file="Z:\Code\js-ts-tasks\test\index.js" time="0.001" failures="7">
+    <testcase name="hasProperty should return false" time="0.000" classname="should return false">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hasProperty (src\hasProperty.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hasProperty should return true" time="0.000" classname="should return true">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hasProperty (src\hasProperty.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hasProperty should return false" time="0.000" classname="should return false">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hasProperty (src\hasProperty.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hasProperty should return true" time="0.000" classname="should return true">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hasProperty (src\hasProperty.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hasProperty should return false" time="0.000" classname="should return false">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hasProperty (src\hasProperty.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hasProperty should return true" time="0.000" classname="should return true">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hasProperty (src\hasProperty.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hasProperty should return true" time="0.000" classname="should return true">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hasProperty (src\hasProperty.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="hundredAfterOdd" timestamp="2025-11-11T16:47:35" tests="7" file="Z:\Code\js-ts-tasks\test\index.js" time="0.001" failures="7">
+    <testcase name="hundredAfterOdd should return [1,100,2,3,100,4]" time="0.000" classname="should return [1,100,2,3,100,4]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hundredAfterOdd (src\hundredAfterOdd.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hundredAfterOdd should return [2,4,1,100,3,100,456,78,2,2,4]" time="0.000" classname="should return [2,4,1,100,3,100,456,78,2,2,4]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hundredAfterOdd (src\hundredAfterOdd.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hundredAfterOdd should return [1,100,2]" time="0.000" classname="should return [1,100,2]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hundredAfterOdd (src\hundredAfterOdd.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hundredAfterOdd should return [-1,100,1,100,2]" time="0.000" classname="should return [-1,100,1,100,2]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hundredAfterOdd (src\hundredAfterOdd.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hundredAfterOdd should return [4,4,6]" time="0.000" classname="should return [4,4,6]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hundredAfterOdd (src\hundredAfterOdd.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hundredAfterOdd should return [1,100]" time="0.000" classname="should return [1,100]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hundredAfterOdd (src\hundredAfterOdd.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="hundredAfterOdd should return [0,0,5,100,100,0]" time="0.000" classname="should return [0,0,5,100,100,0]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at hundredAfterOdd (src\hundredAfterOdd.js:7:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="maxCommonSub" timestamp="2025-11-11T16:47:35" tests="7" file="Z:\Code\js-ts-tasks\test\index.js" time="0.000" failures="7">
+    <testcase name="maxCommonSub should return &quot;gabcdef&quot;" time="0.000" classname="should return &quot;gabcdef&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at maxCommonSub (src\maxCommonSub.js:12:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="maxCommonSub should return &quot;abc&quot;" time="0.000" classname="should return &quot;abc&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at maxCommonSub (src\maxCommonSub.js:12:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="maxCommonSub should return &quot;e&quot;" time="0.000" classname="should return &quot;e&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at maxCommonSub (src\maxCommonSub.js:12:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="maxCommonSub should return &quot;q&quot;" time="0.000" classname="should return &quot;q&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at maxCommonSub (src\maxCommonSub.js:12:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="maxCommonSub should return &quot;asdfghjkl&quot;" time="0.000" classname="should return &quot;asdfghjkl&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at maxCommonSub (src\maxCommonSub.js:12:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="maxCommonSub should return &quot;44444&quot;" time="0.000" classname="should return &quot;44444&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at maxCommonSub (src\maxCommonSub.js:12:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="maxCommonSub should return &quot;qwerzxcvtyuiopbnm&quot;" time="0.000" classname="should return &quot;qwerzxcvtyuiopbnm&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at maxCommonSub (src\maxCommonSub.js:12:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="partialSum" timestamp="2025-11-11T16:47:35" tests="7" file="Z:\Code\js-ts-tasks\test\index.js" time="0.000" failures="7">
+    <testcase name="partialSum should return [0,1,3,6,10]" time="0.000" classname="should return [0,1,3,6,10]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at partialSum (src\partialSum.js:15:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="partialSum should return [1,4,460,538,540,542,546]" time="0.000" classname="should return [1,4,460,538,540,542,546]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at partialSum (src\partialSum.js:15:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="partialSum should return [0,1,1,3,3,6]" time="0.000" classname="should return [0,1,1,3,3,6]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at partialSum (src\partialSum.js:15:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="partialSum should return [0,0]" time="0.000" classname="should return [0,0]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at partialSum (src\partialSum.js:15:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="partialSum should return [-1,-1,0]" time="0.000" classname="should return [-1,-1,0]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at partialSum (src\partialSum.js:15:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="partialSum should return [0.1,0,0.1,0]" time="0.000" classname="should return [0.1,0,0.1,0]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at partialSum (src\partialSum.js:15:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="partialSum should return [-123,0,1,3,6,9,11,12]" time="0.000" classname="should return [-123,0,1,3,6,9,11,12]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at partialSum (src\partialSum.js:15:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="removeItems" timestamp="2025-11-11T16:47:35" tests="8" file="Z:\Code\js-ts-tasks\test\index.js" time="0.001" failures="8">
+    <testcase name="removeItems should return [1,3,456,78,4]" time="0.000" classname="should return [1,3,456,78,4]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at removeItems (src\removeItems.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="removeItems should return [1,3,456,78,2,2,4]" time="0.000" classname="should return [1,3,456,78,2,2,4]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at removeItems (src\removeItems.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="removeItems should return [&quot;a&quot;,&quot;b&quot;,&quot;d&quot;,&quot;e&quot;]" time="0.000" classname="should return [&quot;a&quot;,&quot;b&quot;,&quot;d&quot;,&quot;e&quot;]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at removeItems (src\removeItems.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="removeItems should return [34,23,&quot;Some long name&quot;]" time="0.000" classname="should return [34,23,&quot;Some long name&quot;]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at removeItems (src\removeItems.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="removeItems should return [34,23,&quot;Some long name&quot;]" time="0.000" classname="should return [34,23,&quot;Some long name&quot;]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at removeItems (src\removeItems.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="removeItems should return [false]" time="0.000" classname="should return [false]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at removeItems (src\removeItems.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="removeItems should return [{&quot;a&quot;:1,&quot;b&quot;:true},{&quot;a&quot;:2,&quot;b&quot;:false}]" time="0.000" classname="should return [{&quot;a&quot;:1,&quot;b&quot;:true},{&quot;a&quot;:2,&quot;b&quot;:false}]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at removeItems (src\removeItems.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="removeItems should return [[0],[0,1,2]]" time="0.000" classname="should return [[0],[0,1,2]]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at removeItems (src\removeItems.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="replacement" timestamp="2025-11-11T16:47:35" tests="5" file="Z:\Code\js-ts-tasks\test\index.js" time="0.000" failures="5">
+    <testcase name="replacement should return [1,1,3,2,1,1,1]" time="0.000" classname="should return [1,1,3,2,1,1,1]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at replacement (src\replacement.js:11:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="replacement should return [3,1,1,4]" time="0.000" classname="should return [3,1,1,4]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at replacement (src\replacement.js:11:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="replacement should return [1,1,1,2]" time="0.000" classname="should return [1,1,1,2]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at replacement (src\replacement.js:11:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="replacement should return [1,1,1,1,1,1,1]" time="0.000" classname="should return [1,1,1,1,1,1,1]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at replacement (src\replacement.js:11:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="replacement should return [4,3,3,2,2,1,1,1,1]" time="0.000" classname="should return [4,3,3,2,2,1,1,1,1]">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at replacement (src\replacement.js:11:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

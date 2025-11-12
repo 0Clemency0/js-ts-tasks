@@ -5,5 +5,15 @@
  * @returns {boolean}
  */
 module.exports.hasProperty = function hasProperty(object, prop) {
-  throw new Error('Not implemented'); // remove me and write a solution
+  let current = object;
+  while (current !== null) {
+    for (let key of Object.getOwnPropertyNames(current)) {
+      if (key === prop) {
+        return true;
+      }
+    }
+    current = Object.getPrototypeOf(current);
+  }
+
+  return false;
 };
