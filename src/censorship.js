@@ -13,6 +13,32 @@
  * @param {Array} forbidden
  * @returns {function}
  */
+/**
+ * Функция возвращает другую функцию, которая заменяет запрещённые слова и фразы в строке на символы '*'.
+ * @param {Array} forbidden - массив запрещённых слов или фраз.
+ * @returns {Function} - функция, принимающая строку и возвращающая цензурированную версию.
+ */
 module.exports.censorship = function censorship(forbidden) {
-  throw new Error('Not implemented'); // remove me and write a solution
+  return function (str) {
+    let chars = str.split('');
+
+    for (let i = 0; i < forbidden.length; i++) {
+      const word = forbidden[i];
+      const stars = '*'.repeat(word.length);
+
+      for (let j = 0; j <= chars.length - word.length; j++) {
+        let slice = '';
+        for (let k = 0; k < word.length; k++) {
+          slice += chars[j + k];
+        }
+
+        if (slice === word) {
+          for (let k = 0; k < word.length; k++) {
+            chars[j + k] = '*';
+          }
+        }
+      }
+    }
+    return chars.join('');
+  };
 };
